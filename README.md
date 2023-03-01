@@ -13,13 +13,13 @@ Write a function that reads a line from a file descriptor and returns it. The fu
 
 Calling __get_next_line__ in a loop will allow you to read the text available on the file descriptor one line at a time until the end of it.
 
-Your function should return the line that has just been read. If there is nothing else to read or if an error has occurred it should return NULL.
+Your function should return the line that has just been read. If there is nothing else to read or if an error has occurred it should return `NULL`.
 
 You must add a get_next_line_utils.c file which will contain the functions that are needed for your __get_next_line__ to work.
 
-Your program must compile with the flag -D ''BUFFER_SIZE=xx'', which will be used as the buffer size for the read calls in your __get_next_line__. This value will be modified by your evaluators and by the moulinette.
+Your program must compile with the flag -D ``BUFFER_SIZE=xx``, which will be used as the buffer size for the read calls in your __get_next_line__. This value will be modified by your evaluators and by the moulinette.
 
-Your read must use the ''BUFFER_SIZE'' defined during compilation to read from a file or from stdin. This value will be modified during the evaluation for testing purposes.
+Your read must use the ``BUFFER_SIZE`` defined during compilation to read from a file or from stdin. This value will be modified during the evaluation for testing purposes.
 
 In the header file __get_next_line__.h, you must have at least the prototype of the function __get_next_line__.
 
