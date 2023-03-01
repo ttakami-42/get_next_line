@@ -1,12 +1,13 @@
 # get_next_line
 open(), read() and close(), just learn those things.
 
-|Function name | get_next_line |
-|Prototype | char *get_next_line(int fd); |
-|Turn in files | get_next_line.c, get_next_line_utils.c, get_next_line.h |
-|Parameters | File descriptor to read from |
-|Return value | Read line: correct behavior<br>NULL: nothing else to read or an error occurred |
-|External functs. | read, malloc, free |
+| Function name | get_next_line |
+| :--- | :--- |
+| Prototype | char *get_next_line(int fd); |
+| Turn in files | get_next_line.c, get_next_line_utils.c, get_next_line.h |
+| Parameters | File descriptor to read from |
+| Return value | Read line: correct behavior<br>NULL: nothing else to read or an error occurred |
+| External functs. | read, malloc, free |
 ## Description
 Write a function that reads a line from a file descriptor and returns it. The function should behave correctly when reading from a file or from the standard input.
 
